@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+  
+        <div class="box">
+        <h1>TASK  MANAGER</h1>
+        </div>
+      
+        <div class="main">
+          <div class="addtasks">
+            <center>
+          <h2>Add Your Task</h2>
+        
+            <hr>
+          </div>
+          
+              <input type="text" id="tasktext" name="tasktext" placeholder="E.g:Study for the test" >
+       
+      
+                <div id="createtask">
+                  Add here
+                </div>
+          
+              <div class="addedtasks">
+            </center>
+            <center>
+                  <h2>Current Task</h2>
+                </center>
+                  <hr>
+                  <ul id="taskincomplete">
+                    <li><input type="radio"><label>Create a webpage</label><input type="text"><button class="edit">Edit</button><button class="delete">Remove the Task</button></li>
+                  </ul>
+              </div>
+          
+              <div class="completedtasks">
+                <center>
+                  
+                          
+                <h2>Completed Tasks</h2>
+            </center>
+                <hr>
+                <ul id="taskcomplete">
+                   <li><input type="radio" checked><label>Mini project Submission</label><input type="text"><button class="edit">Edit</button><button class="delete">Remove the Task</button></li>
+                </ul>
+              </div>
+          
+        </div>
+        
+      </div>
+      <script src="javascript.js">
+
+      </script>
+</body>
+
+</html>
